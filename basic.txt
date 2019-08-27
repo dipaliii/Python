@@ -1,0 +1,114 @@
+Python 3.7.3 (default, Apr  3 2019, 05:39:12) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a=108
+>>> b=80
+>>> a+b
+188
+>>> a-b
+28
+>>> a*b
+8640
+>>> a/b
+1.35
+>>> a**b
+4719548342649185076569761876830476176786882449773296791670261152662450171859811838235714469593082217888638905941749948298408288413205323515115853744785972606795776
+>>> a||b
+SyntaxError: invalid syntax
+>>> a|b
+124
+>>> a%b
+28
+>>> a&b
+64
+>>> a=1
+>>> b=1
+>>> c=0
+>>> a&b
+1
+>>> a|b
+1
+>>> a&c
+0
+>>> a|c
+1
+>>> a^b
+0
+>>> b^c
+1
+>>> a>>4
+0
+>>> a<<4
+16
+>>> x=[1,4,9.1,"dipali","hi",70,100]
+>>> x[2:-1]
+[9.1, 'dipali', 'hi', 70]
+>>> x[-1]
+100
+>>> x[:]
+[1, 4, 9.1, 'dipali', 'hi', 70, 100]
+>>> x[0:]
+[1, 4, 9.1, 'dipali', 'hi', 70, 100]
+>>> len(x)
+7
+>>> x.lower()
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    x.lower()
+AttributeError: 'list' object has no attribute 'lower'
+>>> x.lower(3)
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    x.lower(3)
+AttributeError: 'list' object has no attribute 'lower'
+>>> x.upper(3)
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    x.upper(3)
+AttributeError: 'list' object has no attribute 'upper'
+>>> x.upper(dipali)
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    x.upper(dipali)
+AttributeError: 'list' object has no attribute 'upper'
+>>> x.upper('dipali')
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    x.upper('dipali')
+AttributeError: 'list' object has no attribute 'upper'
+>>> a=["dipali","errpr"]
+>>> a.upper()
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    a.upper()
+AttributeError: 'list' object has no attribute 'upper'
+>>> a="dipali"
+>>> a.upper()
+'DIPALI'
+>>> a.insert("class",12)
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    a.insert("class",12)
+AttributeError: 'str' object has no attribute 'insert'
+>>> x.insert("class",12)
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    x.insert("class",12)
+TypeError: 'str' object cannot be interpreted as an integer
+>>>  x
+ 
+SyntaxError: unexpected indent
+>>> x
+[1, 4, 9.1, 'dipali', 'hi', 70, 100]
+>>> x.insert(4, 'class')
+>>> x
+[1, 4, 9.1, 'dipali', 'class', 'hi', 70, 100]
+>>> x.insert(4,"hello",6)
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    x.insert(4,"hello",6)
+TypeError: insert() takes exactly 2 arguments (3 given)
+>>> a=" hello there "
+>>> a.replace("hello","hi")
+' hi there '
+>>> 
