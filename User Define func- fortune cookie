@@ -1,0 +1,41 @@
+# Define a Function
+'''So how do we create a function from scratch?
+
+User-defined functions are functions we define ourselves to do a specific task, and it's a two-step process: 1️) define and 2️) call.
+To define a function, we need a function definition. A function definition begins with the def keyword, followed by the function name, a set of parentheses, and a colon in that order.
+Here’s what a function definition looks like:
+def name():
+
+# The code inside
+The def keyword.
+The function name, followed by a pair of parentheses ().
+The colon :.
+# Call a Function
+To call a function, we use the function name followed by parentheses somewhere in the code:
+def say_hello():
+  print('Howdy! 🤠')
+  print('How are you?')
+say_hello()
+
+Fortune Cookie is a small cookie wafer with a piece of paper inside, called a “fortune”, which is usually a Chinese phrase with translation and a list of lucky numbers. They are served in restaurants in the U.S. and Canada. 🥠
+Create a fortune_cookie.py program that gives the user random fortunes.
+Define a function named fortune(). Inside the function, print out a random fortune from the list
+'''
+
+# Write code below 💖
+import random
+def fortune():
+  FortuneList=['Dont pursue happiness – create it.',
+'All things are difficult before they are easy.',
+'The early bird gets the worm, but the second mouse gets the cheese.',
+'Someone in your life needs a letter from you.',
+'Dont just think. Act!',
+'Your heart will skip a beat.',
+'The fortune you search for is in another cookie.',
+'Help! I am being held prisoner in a Chinese bakery!']
+  print(random.choice(FortuneList))
+
+fortune()
+fortune()
+fortune()
+
