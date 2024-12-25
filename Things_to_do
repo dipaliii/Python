@@ -1,0 +1,15 @@
+# Write code below 💖
+things_to_do = [
+  '🚀 Create a cute business that I will be proud of💖.',
+  '⛰️ Hike the Uttrakhands valley Trail.',
+  '🏡 Build an pretty house fill it with cute memories with my BuBu.',
+  '🌏 Visit another country and live their for Work💖 for an year or so',
+  '🎸 Learn Guitar and become perfect at it to record a song',
+  '📝 Read multiple insightful books',
+  '🏆 Take a leadership role',
+  '🚐 Road trip with the fam.',
+  '🍳 Open a small school for creativity and science for kids.',
+  '👴🏻 Grow old with no regrets.'
+]
+for i in things_to_do:
+  print(i)
