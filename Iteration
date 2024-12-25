@@ -1,4 +1,4 @@
-#Iterate through list
+#Iterate over a list
 '''Back in the good ol' days, a mixtape is a compilation of music, a playlist, recorded onto a cassette tape or a CD.
 Create a mixtape.py program and think of a theme for the songs.
 Make a list called playlist and throw in some songs.
