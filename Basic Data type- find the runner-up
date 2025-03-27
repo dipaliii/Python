@@ -1,0 +1,31 @@
+''' 
+Sample Input 0
+
+5
+2 3 6 6 5
+Sample Output 0
+
+5
+Explanation 0
+
+Given list is . The maximum score is , second maximum is . Hence, we print  as the runner-up score.
+'''
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    arr= list(arr)
+    winner=-100
+    runner_up=-100
+    for i in range(n):
+        if arr[i]>winner:
+            runner_up=winner
+            winner=arr[i]
+        elif winner==runner_up:
+            pass
+        elif arr[i]<winner:
+            runner_up=arr[i]
+        else:
+            pass
+    print(runner_up)
+            
+    
